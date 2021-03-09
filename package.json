@@ -1,0 +1,24 @@
+{
+  "name": "foodmandutest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy" : "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaykoju9849/FoodmanduTest.git"
+  },
+  "author": "sanjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjaykoju9849/FoodmanduTest/issues"
+  },
+  "homepage": "https://github.com/sanjaykoju9849/FoodmanduTest#readme",
+  "description": ""
+}
