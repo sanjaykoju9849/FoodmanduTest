@@ -8,11 +8,10 @@ describe('Foodmandu login to add food in cart test', () => {
    
     beforeEach(() => {
         Cypress.Cookies.preserveOnce(".AspNet.ApplicationCookie");
+        cy.visit("https://foodmandu.com/");
     });
 
     it('Visit Foodmandu landing page and login.', () => {
-        cy.visit("https://foodmandu.com/");
-
         foodmanduPageObj.userLogin()
     });
 

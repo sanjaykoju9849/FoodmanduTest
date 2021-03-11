@@ -5,10 +5,12 @@
   "dependencies": {
     "cypress": "^6.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy" : "cypress open"
+    "cy": "cypress open"
   },
   "repository": {
     "type": "git",

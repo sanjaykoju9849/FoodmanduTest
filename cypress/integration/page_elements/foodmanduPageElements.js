@@ -51,16 +51,26 @@ export class FoodmanduElemets
         return cy.get('.item__footer > :nth-child(1) > :nth-child(2) > .btn')
     }
 
+    myBagItem()
+    {
+        return cy.get('div.ng-scope:nth-child(4) section.menu.main-space.mb-4 div.restaurant-front.spinner:nth-child(2) div.container div.row div.col-lg-3.hidden-md-down:nth-child(4) div.sticky-side > div.cart__content.spinner')
+    }
 
     //User logout 
-    profileButton()
+    profileIcon()
     {
         return cy.get('[title="My Profile"] > .icomoon')
     }
 
+
+    editProfileButton()
+    {
+        return cy.get('.side-general__profile > :nth-child(4)')
+    }
+
     logOutButton()
     {
-        return cy.get('#logoutForm')
+        return cy.get('#logoutForm > .btn')
     }
 
 }
